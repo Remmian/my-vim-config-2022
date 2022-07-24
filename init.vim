@@ -7,10 +7,9 @@ source ~/.config/nvim/general/keys.vim
 
 "Theme
 source ~/.config/nvim/general/colors.vim
-source ~/.config/nvim/themes/gruvbox-material.vim
-" source ~/.config/nvim/themes/bogster.vim
-" source ~/.config/nvim/themes/oceanic-next.vim
-" source ~/.config/nvim/themes/onedark.vim
+" source ~/.config/nvim/themes/gruvbox-material.vim
+" source ~/.config/nvim/themes/tokyonight.vim
+source ~/.config/nvim/themes/shades_of_purple.vim
 
 "Import plugin settings
 source ~/.config/nvim/plug-settings/easy-motion.vim
@@ -19,16 +18,13 @@ source ~/.config/nvim/plug-settings/lsp-config.vim
 source ~/.config/nvim/plug-settings/coc-config.vim
 source ~/.config/nvim/plug-settings/prettier.vim
 source ~/.config/nvim/plug-settings/vim-commentary.vim
+source ~/.config/nvim/plug-settings/auto-save.vim
 
 source ~/.config/nvim/plug-settings/airline.vim
 source ~/.config/nvim/plug-settings/emmet.vim
-source ~/.config/nvim/plug-settings/fzf.vim
 source ~/.config/nvim/plug-settings/signify.vim
 source ~/.config/nvim/plug-settings/tagbar.vim
 source ~/.config/nvim/plug-settings/ulti-snippets.vim
 source ~/.config/nvim/plug-settings/undotree.vim
 source ~/.config/nvim/plug-settings/vim-dev-icons.vim
-" source ~/.config/nvim/plug-settings/rust.vim
-" source ~/.config/nvim/plug-settings/vimspector.vim
-" source ~/.config/nvim/plug-settings/vim-clang-format.vim
-" source ~/.config/nvim/plug-settings/vim-go.vim
+source ~/.config/nvim/plug-settings/fzf.vim

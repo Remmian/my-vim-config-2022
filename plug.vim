@@ -4,16 +4,10 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'joshdick/onedark.vim'
 Plug 'kjwon15/vim-transparent'
 Plug 'ghifarit53/tokyonight-vim'
-Plug 'rafalbromirski/vim-aurora'
 Plug 'sainnhe/gruvbox-material'
-Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
-Plug 'AlessandroYorba/Despacio'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
-Plug 'mhartington/oceanic-next'
-Plug 'wojciechkepka/bogster'
-Plug 'franbach/miramare'
 Plug 'jaredgorski/spacecamp'
+Plug 'Rigellute/shades-of-purple.vim'
 
 " IDE
 Plug 'easymotion/vim-easymotion'
@@ -23,6 +17,7 @@ Plug 'tpope/vim-commentary'
 Plug 'Yggdroot/indentLine'
 Plug 'andrewradev/tagalong.vim'
 Plug 'ap/vim-css-color'
+Plug 'Pocco81/AutoSave.nvim'
 
 " LSP
 Plug 'neovim/nvim-lspconfig'
@@ -48,21 +43,15 @@ Plug 'uiiaoo/java-syntax.vim'
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
-" Plug 'junegunn/gv.vim'
+Plug 'junegunn/gv.vim'
 
 "Functionality
 Plug 'preservim/tagbar'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
 Plug 'KabbAmine/vCoolor.vim'
-Plug 'easymotion/vim-easymotion'
-" Plug 'rust-lang/rust.vim'
-" Plug 'cespare/vim-toml'
 Plug 'vim-python/python-syntax'
 Plug 'mbbill/undotree'
-" Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
-" Plug 'puremourning/vimspector'
-" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 "code modification
 Plug 'scrooloose/nerdcommenter'

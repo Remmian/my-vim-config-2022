@@ -67,6 +67,16 @@ set showmatch
 "clear highlight after a search
 set nohlsearch
 
-"Other settings
+" Collapse and expand code block
+set foldmethod=indent   
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
+
+" Automatically create and load fold view 
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
+
+" Other settings
 set relativenumber
 set laststatus=2
